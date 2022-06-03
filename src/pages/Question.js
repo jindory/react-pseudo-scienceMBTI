@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Qustion = () => {
+const Question = () => {
     return (<div>질문화면 입니다.</div>)
 }
 
-export default Qustion;
+export default Question;
