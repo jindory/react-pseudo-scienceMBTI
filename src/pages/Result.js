@@ -59,7 +59,7 @@ const Result = () => {
             <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
                 <Tab eventKey="profile" title="적용방법">
                     <p className="ref-box">
-                    👩‍🎨 🎨 [VSCode] 터미널 색상 적용방법 보기<br></br><a href="https://velog.io/@laonjay" target="_blank" rel="noreferrer">https://velog.io/@laonjay</a>
+                    👩‍🎨 🎨 [VSCode] 터미널 색상 적용방법 보기<br></br><a href="https://velog.io/@laonjay/VSCode-%ED%84%B0%EB%AF%B8%EB%84%90-%EC%83%89%EC%83%81-%EC%A0%81%EC%9A%A9%EB%B0%A9%EB%B2%95-%EB%B3%B4%EA%B8%B0" target="_blank" rel="noreferrer">https://velog.io/@laonjay</a>
                     </p>
                 </Tab>
                 <Tab eventKey="home" title="색상코드">

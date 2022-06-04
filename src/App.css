@@ -6,6 +6,7 @@
 }
 @font-face{font-family:"Cafe24SsurroundAir";src:url(/src/assets/fonts/Cafe24SsurroundAir.ttf);}
 
+
 body{background-color:#07021A;color:#fff;}
 .wrapper{width:100%;height:100vh;font-family:'Cafe24SsurroundAir';}
 .content-w{display:flex;justify-content:center;align-items:center;flex-direction:column;}
@@ -39,6 +40,7 @@ body{background-color:#07021A;color:#fff;}
 .btn-cta.home{margin-top:80px}
 .btn-question{margin-top:30px}
 .btn-question button{width:100%;min-height:130px;margin:5px 0;padding:20px 25px;background-color:#1C1A26;border:0;border-radius:15px;font-weight:bold;font-size:20px;}
+.btn-question button{-webkit-tap-highlight-color:transparent;}
 .btn-question button:hover{background-color:var(--primary-color);}
 .btn-question .btn-primary:focus{background:#1C1A26;box-shadow: none;}
 .btn-small{display:inline-block;position:absolute;top:15px;right:15px; padding:5px 8px 3px;background:none;border:1px solid #fff;border-radius: 5px;color:#fff;font-size:13px}
