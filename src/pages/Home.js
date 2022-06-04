@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import PangImage from '../assets/img.jpeg';
+import PangImage from '../assets/title.svg';
+import MainImage from '../assets/visual-img.png'
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
 
@@ -14,16 +15,16 @@ const Home = () => {
     }
     return (
         <Wrapper>
-            <Header>터미널 색상 바꾸긧</Header>
+            {/* <Header>퍼스널 터미널 찾기</Header> */}
             <Content>
-                <Title>나만의 터미널 꾸미기</Title>
-                <LogoImage>
-                    <img src={PangImage} className="rounded-circle" width={350} height={350} alt="catbug" />
-                </LogoImage>
-                <Desc>
-                    MBTI를 기반으로 하는 내 터미널 꾸미깅
-                </Desc>
-                <Button style={{fontSize:"25px"}} onClick={handleClickButton}>테스트 시작하기</Button>
+                <div className="pg-cont">
+                    <LogoImage><img src={PangImage} className="logo-img" alt="my Personal Terminal" /></LogoImage>
+                    <VisualImage><img src={MainImage} className="visual-img"  alt="" /></VisualImage>
+                    <Desc>
+                        MBTI를 기반으로 하는 터미널 테마 꾸미기
+                    </Desc>
+                    <Button className="btn-cta" onClick={handleClickButton}>테스트 시작하기</Button>
+                </div>
             </Content>
         </Wrapper>
     )
@@ -31,10 +32,9 @@ const Home = () => {
 
 export default Home;
 const Wrapper = styled.div`
-    height:100vh;
     width:100%;
+    height:100vh;
     font-family:'Cafe24SsurroundAir';
-    
 `
 
 const Content = styled.div`
@@ -44,22 +44,11 @@ const Content = styled.div`
     flex-direction:column;
 `
 
-const Header = styled.div`
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:40pt;
-    
-`
-
-const Title = styled.div`
-    font-size:30pt;
-    margin-top:40px;
-`
-
 const LogoImage = styled.div`
     margin-top:10px;
-
+`
+const VisualImage = styled.div`
+    margin-top:10px
 `
 
 const Desc = styled.div`

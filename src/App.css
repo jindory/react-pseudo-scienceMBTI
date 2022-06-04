@@ -1,8 +1,127 @@
-.App {
-    font-family:"Cafe24SsurroundAir";
-}
+.App {font-family:"Cafe24SsurroundAir";}
 
-@font-face{
-    font-family:"Cafe24SsurroundAir";
-    src:url(/src/assets/fonts/Cafe24SsurroundAir.ttf);
-}
+@font-face{font-family:"Cafe24SsurroundAir";src:url(/src/assets/fonts/Cafe24SsurroundAir.ttf);}
+
+body{background-color:#07021A;color:#fff;}
+.pg-cont{padding:40px 0 130px;max-width:400px;margin:0 auto;text-align: center;}
+.logo-img{width:100%}
+.visual-img{width:100%}
+.result--imagearea{width:100%;height:270px;background-color:#4C21D4;border-bottom-right-radius: 40px;border-bottom-left-radius: 40px;}
+.result-img{width:80%;margin-top:15px}
+.result--title{margin-top:0;font-size:35px;font-weight: bold;text-align: center;}
+.result--color{margin-top:30px;padding:20px;display:flex;border-radius:10px;border-bottom-right-radius: 0;border-bottom-left-radius: 0;justify-content: center;}
+.result--color span{display:inline-block;width:35px;height:35px;margin:0 3px;border-radius: 100px;font-size:0}
+.result--code-box{background:#181520;border-radius:10px;border-top-left-radius: 0;border-top-right-radius: 0; padding:20px;color:#999;font-size:14px}
+.code-box{overflow:scroll;height:80px;}
+
+/* button */
+.btn-cta{width:100%;margin-top:40px;padding:20px 50px 17px;background-color:#4D21D3;border:0;border-radius: 100px;font-weight: bold;font-size:30px}
+.btn-cta:hover{background-color:#601BFA;box-shadow: 0 5px 15px rgba(96, 27, 250, 0.3);}
+.btn-question{margin-top:30px}
+.btn-question button{width:100%;min-height:100px;margin:5px 0;padding:20px 25px;background-color:#1C1A26;border:0;border-radius:15px;font-weight:bold;font-size:20px;}
+.btn-question button:hover{background-color:#4D21D3;box-shadow: 0 5px 15px rgba(96, 27, 250, 0.3);}
+.btn-small{width:100%;margin-top:20px;padding:7px 0 6px;background:none;border:1px solid #fff;border-radius: 10px;color:#fff;font-size:18px}
+.btn-small:hover{background:#fff;color:#601BFA;font-weight: bold;}
+
+/* progress */
+.progress{height:1.1rem;background:#171520;border-radius:15px;border-top-left-radius: 0;border-top-right-radius: 0;}
+.bg-danger{background-color:#4C21D3 !important}
+
+/* color */
+.result--color.INTJ{background-color:rgb(11, 28, 44)}
+.result--color.INTJ .cr1{background-color:#8B56BF}
+.result--color.INTJ .cr2{background-color:#627E99}
+.result--color.INTJ .cr3{background-color:#BF568B}
+.result--color.INTJ .cr4{background-color:#CBD6E2}
+.result--color.INTJ .cr5{background-color:#568BBF}
+.result--color.INTP{background-color:rgb(16, 16, 16)}
+.result--color.INTP .cr1{background-color:#B9B9B9}
+.result--color.INTP .cr2{background-color:#7C7C7C}
+.result--color.INTP .cr3{background-color:#F7F7F7}
+.result--color.INTP .cr4{background-color:#B9B9B9}
+.result--color.INTP .cr5{background-color:#7C7C7C}
+.result--color.ENTJ{background:rgb(33, 33, 33)}
+.result--color.ENTJ .cr1{background-color:#82AAFF}
+.result--color.ENTJ .cr2{background-color:#C3E88D}
+.result--color.ENTJ .cr3{background-color:#F07178}
+.result--color.ENTJ .cr4{background-color:#FFFFFF}
+.result--color.ENTJ .cr5{background-color:#FFCB6B}
+.result--color.ENTP {background:rgb(0, 0, 0)}
+.result--color.ENTP .cr1{background-color:#0066FF}
+.result--color.ENTP .cr2{background-color:#33FF00}
+.result--color.ENTP .cr3{background-color:#CC00FF}
+.result--color.ENTP .cr4{background-color:#FF0000}
+.result--color.ENTP .cr5{background-color:#FF0099}
+.result--color.INFJ{background:rgb(28, 32, 35)}
+.result--color.INFJ .cr1{background-color:#AE95C7}
+.result--color.INFJ .cr2{background-color:#95AEC7}
+.result--color.INFJ .cr3{background-color:#95C7AE}
+.result--color.INFJ .cr4{background-color:#C795AE}
+.result--color.INFJ .cr5{background-color:#F3F4F5}
+.result--color.INFP{background:rgb(41, 42, 68)}
+.result--color.INFP .cr1{background-color:#F1EFF8}
+.result--color.INFP .cr2{background-color:#7AA5FF}
+.result--color.INFP .cr3{background-color:#A0A0C5}
+.result--color.INFP .cr4{background-color:#6DFEDF}
+.result--color.INFP .cr5{background-color:#AE81FF}
+.result--color.ENFJ{background:rgb(29, 31, 33)}
+.result--color.ENFJ .cr1{background-color:#3971ED}
+.result--color.ENFJ .cr2{background-color:#198844}
+.result--color.ENFJ .cr3{background-color:#CC342B}
+.result--color.ENFJ .cr4{background-color:#FFFFFF}
+.result--color.ENFJ .cr5{background-color:#FBA922}
+.result--color.ENFP{background:rgb(0, 0, 0)}
+.result--color.ENFP .cr1{background-color:#00AABB}
+.result--color.ENFP .cr2{background-color:#37B349}
+.result--color.ENFP .cr3{background-color:#EB008A}
+.result--color.ENFP .cr4{background-color:#FFFFFF}
+.result--color.ENFP .cr5{background-color:#F8CA12}
+.result--color.ISTJ{background:rgb(24, 24, 24)}
+.result--color.ISTJ .cr1{background-color:#86C1B9}
+.result--color.ISTJ .cr2{background-color:#A1B56C}
+.result--color.ISTJ .cr3{background-color:#AB4642}
+.result--color.ISTJ .cr4{background-color:#F8F8F8}
+.result--color.ISTJ .cr5{background-color:#BA8BAF}
+.result--color.ISFJ{background:rgb(25, 25, 25)}
+.result--color.ISFJ .cr1{background-color:#639EE4}
+.result--color.ISFJ .cr2{background-color:#4BB1A7}
+.result--color.ISFJ .cr3{background-color:#84B97C}
+.result--color.ISFJ .cr4{background-color:#B888E2}
+.result--color.ISFJ .cr5{background-color:#DC657D}
+.result--color.ESTJ {background:rgb(29, 32, 33)}
+.result--color.ESTJ .cr1{background-color:#0D6678}
+.result--color.ESTJ .cr2{background-color:#8BA59B}
+.result--color.ESTJ .cr3{background-color:#95C085}
+.result--color.ESTJ .cr4{background-color:#8F4673}
+.result--color.ESTJ .cr5{background-color:#FB543F}
+.result--color.ESFJ{background:#485867}
+.result--color.ESFJ .cr1{background-color:#B0C5C8}
+.result--color.ESFJ .cr2{background-color:#868CB3}
+.result--color.ESFJ .cr3{background-color:#86B3B3}
+.result--color.ESFJ .cr4{background-color:#87B386}
+.result--color.ESFJ .cr5{background-color:#B38686}
+.result--color.ISTP {background:#202746}
+.result--color.ISTP .cr1{background-color:#22A2C9}
+.result--color.ISTP .cr2{background-color:#AC9739}
+.result--color.ISTP .cr3{background-color:#6679CC}
+.result--color.ISTP .cr4{background-color:#C94922}
+.result--color.ISTP .cr5{background-color:#979DB4}
+.result--color.ISFP {background:#FBF1F2}
+.result--color.ISFP .cr1{background-color:#69A9A7}
+.result--color.ISFP .cr2{background-color:#A3B367}
+.result--color.ISFP .cr3{background-color:#BB99B4}
+.result--color.ISFP .cr4{background-color:#D57E85}
+.result--color.ISFP .cr5{background-color:#8B8198}
+.result--color.ESTP{background:#19171C}
+.result--color.ESTP .cr1{background-color:#2A9292}
+.result--color.ESTP .cr2{background-color:#955AE7}
+.result--color.ESTP .cr3{background-color:#BE4678}
+.result--color.ESTP .cr4{background-color:#EFECF4}
+.result--color.ESTP .cr5{background-color:#A06E3B}
+.result--color.ESFP{background:#231F20}
+.result--color.ESFP .cr1{background-color:#85CEBC}
+.result--color.ESFP .cr2{background-color:#00853E}
+.result--color.ESFP .cr3{background-color:#98005D}
+.result--color.ESFP .cr4{background-color:#EE2E24}
+.result--color.ESFP .cr5{background-color:#FFD204}
+

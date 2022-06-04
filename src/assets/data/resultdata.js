@@ -1,38 +1,51 @@
-import Icoder from '../result/img.jpeg';
+import coreImg01 from '../result/01intj.png';
+import coreImg02 from '../result/02intp.png';
+import coreImg03 from '../result/03entj.png';
+import coreImg04 from '../result/04entp.png';
+import coreImg05 from '../result/05infj.png';
+import coreImg06 from '../result/06infp.png';
+import coreImg07 from '../result/07enfj.png';
+import coreImg08 from '../result/08enfp.png';
+import coreImg09 from '../result/09istj.png';
+import coreImg10 from '../result/10isfj.png';
+import coreImg11 from '../result/11estj.png';
+import coreImg12 from '../result/12esfj.png';
+import coreImg13 from '../result/13istp.png';
+import coreImg14 from '../result/14isfp.png';
+import coreImg15 from '../result/15estp.png';
+import coreImg16 from '../result/16esfp.png';
 
 export const ResultData = [
     {
         id: 1,
         name: '고독한 개발자',
         best : 'INTJ',
-        desc : '윗자리에 있는 사람은 고독한 법! 결단력이 있고 놀랄 만큼 호기심이 많지만 에너지를 낭비하는 법이 없는 당신! 코드를 짤 때도 최고 효율의 코드를 뚝딱 만들어냅니다! 당신은 스마트하고 자신감이 넘치지만 스포트라이트 밖에서 가장 편안합니다. 냉철한 이성을 가진 당신에게 Harmonic Dark테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        desc : `윗자리에 있는 사람은 고독한 법!\n\
+        결단력이 있고 놀랄 만큼 호기심이 많지만 에너지를 낭비하는 법이 없는 당신!
+        코드를 짤 때도 최고 효율의 코드를 뚝딱 만들어냅니다! 
+        냉철한 이성을 가진 당신에게 Harmonic Dark테마를 추천합니다.✨`,
+        image : `${coreImg01}`,
         code : `
-        "terminal.background":"#232C31",
-        "terminal.foreground":"#9EA7A6",
-        "terminalCursor.background":"#9EA7A6",
-        "terminalCursor.foreground":"#9EA7A6",
-        "terminal.ansiBlack":"#232C31",
-        "terminal.ansiBlue":"#484D79",
-        "terminal.ansiBrightBlack":"#3F4944",
-        "terminal.ansiBrightBlue":"#484D79",
-        "terminal.ansiBrightCyan":"#B02F30",
-        "terminal.ansiBrightGreen":"#237986",
-        "terminal.ansiBrightMagenta":"#C59820",
-        "terminal.ansiBrightRed":"#2A5491",
-        "terminal.ansiBrightWhite":"#B5D8F6",
-        "terminal.ansiBrightYellow":"#A03B1E",
-        "terminal.ansiCyan":"#B02F30",
-        "terminal.ansiGreen":"#237986",
-        "terminal.ansiMagenta":"#C59820",
-        "terminal.ansiRed":"#2A5491",
-        "terminal.ansiWhite":"#9EA7A6",
-        "terminal.ansiYellow":"#A03B1E"
+        "terminal.background":"#0B1C2C",
+        "terminal.foreground":"#CBD6E2",
+        "terminalCursor.background":"#CBD6E2",
+        "terminalCursor.foreground":"#CBD6E2",
+        "terminal.ansiBlack":"#0B1C2C",
+        "terminal.ansiBlue":"#8B56BF",
+        "terminal.ansiBrightBlack":"#627E99",
+        "terminal.ansiBrightBlue":"#8B56BF",
+        "terminal.ansiBrightCyan":"#568BBF",
+        "terminal.ansiBrightGreen":"#56BF8B",
+        "terminal.ansiBrightMagenta":"#BF568B",
+        "terminal.ansiBrightRed":"#BF8B56",
+        "terminal.ansiBrightWhite":"#F7F9FB",
+        "terminal.ansiBrightYellow":"#8BBF56",
+        "terminal.ansiCyan":"#568BBF",
+        "terminal.ansiGreen":"#56BF8B",
+        "terminal.ansiMagenta":"#BF568B",
+        "terminal.ansiRed":"#BF8B56",
+        "terminal.ansiWhite":"#CBD6E2",
+        "terminal.ansiYellow":"#8BBF56"
         `
     },
     {
@@ -40,12 +53,7 @@ export const ResultData = [
         name: '독창적인 천재 개발자',
         best : 'INTP',
         desc : '당신만은 독특한 관점과 왕성한 지적 호기심을 가지고 있습니다! 독창적인 아이디어로 문제를 해결하고 쉼 없이 자신의 논리를 검증하는 당신! 늘 생각이 많은 당신에게 Grayscale Dark테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        image : `${coreImg02}`,
         code : `
         "terminal.background":"#101010",
         "terminal.foreground":"#B9B9B9",
@@ -74,33 +82,28 @@ export const ResultData = [
         name: '대담한 개발자',
         best : 'ENTJ',
         desc : '성취 가능한 도전에 매력을 느끼고 장기적인 안목으로 문제를 바라봅니다. 판단력이 좋은 당신은 정확하게 계획을 실행해 나감으로써 팀을 이끌고 더 튼 성공과 성취를 이루기 위해 노력합니다. 효율을 중요시하는 당신에게 Material Darker테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        image : `${coreImg03}`,
         code : `
-        "terminal.background":"#1B1918",
-        "terminal.foreground":"#A8A19F",
-        "terminalCursor.background":"#A8A19F",
-        "terminalCursor.foreground":"#A8A19F",
-        "terminal.ansiBlack":"#1B1918",
-        "terminal.ansiBlue":"#407EE7",
-        "terminal.ansiBrightBlack":"#766E6B",
-        "terminal.ansiBrightBlue":"#407EE7",
-        "terminal.ansiBrightCyan":"#3D97B8",
-        "terminal.ansiBrightGreen":"#7B9726",
-        "terminal.ansiBrightMagenta":"#6666EA",
-        "terminal.ansiBrightRed":"#F22C40",
-        "terminal.ansiBrightWhite":"#F1EFEE",
-        "terminal.ansiBrightYellow":"#C38418",
-        "terminal.ansiCyan":"#3D97B8",
-        "terminal.ansiGreen":"#7B9726",
-        "terminal.ansiMagenta":"#6666EA",
-        "terminal.ansiRed":"#F22C40",
-        "terminal.ansiWhite":"#A8A19F",
-        "terminal.ansiYellow":"#C38418"
+        "terminal.background":"#212121",
+        "terminal.foreground":"#EEFFFF",
+        "terminalCursor.background":"#EEFFFF",
+        "terminalCursor.foreground":"#EEFFFF",
+        "terminal.ansiBlack":"#212121",
+        "terminal.ansiBlue":"#82AAFF",
+        "terminal.ansiBrightBlack":"#4A4A4A",
+        "terminal.ansiBrightBlue":"#82AAFF",
+        "terminal.ansiBrightCyan":"#89DDFF",
+        "terminal.ansiBrightGreen":"#C3E88D",
+        "terminal.ansiBrightMagenta":"#C792EA",
+        "terminal.ansiBrightRed":"#F07178",
+        "terminal.ansiBrightWhite":"#FFFFFF",
+        "terminal.ansiBrightYellow":"#FFCB6B",
+        "terminal.ansiCyan":"#89DDFF",
+        "terminal.ansiGreen":"#C3E88D",
+        "terminal.ansiMagenta":"#C792EA",
+        "terminal.ansiRed":"#F07178",
+        "terminal.ansiWhite":"#EEFFFF",
+        "terminal.ansiYellow":"#FFCB6B"
         `
     },
     {
@@ -108,33 +111,28 @@ export const ResultData = [
         name: '논쟁을 즐기는 개발자',
         best : 'ENTP',
         desc : '재치 있는 입담과 풍부한 지식을 가진 당신! 다수가 받아들인 사안에 대해서도 의문을 제기하고 체제 자체를 흔들며 새로운 방안을 모색하게 합니다. 지루하고 고단한 업무는 어울리지 않는 당신에게 Isotope테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        image : `${coreImg04}`,
         code : `
-        "terminal.background":"#1B1918",
-        "terminal.foreground":"#A8A19F",
-        "terminalCursor.background":"#A8A19F",
-        "terminalCursor.foreground":"#A8A19F",
-        "terminal.ansiBlack":"#1B1918",
-        "terminal.ansiBlue":"#407EE7",
-        "terminal.ansiBrightBlack":"#766E6B",
-        "terminal.ansiBrightBlue":"#407EE7",
-        "terminal.ansiBrightCyan":"#3D97B8",
-        "terminal.ansiBrightGreen":"#7B9726",
-        "terminal.ansiBrightMagenta":"#6666EA",
-        "terminal.ansiBrightRed":"#F22C40",
-        "terminal.ansiBrightWhite":"#F1EFEE",
-        "terminal.ansiBrightYellow":"#C38418",
-        "terminal.ansiCyan":"#3D97B8",
-        "terminal.ansiGreen":"#7B9726",
-        "terminal.ansiMagenta":"#6666EA",
-        "terminal.ansiRed":"#F22C40",
-        "terminal.ansiWhite":"#A8A19F",
-        "terminal.ansiYellow":"#C38418"
+        "terminal.background":"#000000",
+        "terminal.foreground":"#D0D0D0",
+        "terminalCursor.background":"#D0D0D0",
+        "terminalCursor.foreground":"#D0D0D0",
+        "terminal.ansiBlack":"#000000",
+        "terminal.ansiBlue":"#0066FF",
+        "terminal.ansiBrightBlack":"#808080",
+        "terminal.ansiBrightBlue":"#0066FF",
+        "terminal.ansiBrightCyan":"#00FFFF",
+        "terminal.ansiBrightGreen":"#33FF00",
+        "terminal.ansiBrightMagenta":"#CC00FF",
+        "terminal.ansiBrightRed":"#FF0000",
+        "terminal.ansiBrightWhite":"#FFFFFF",
+        "terminal.ansiBrightYellow":"#FF0099",
+        "terminal.ansiCyan":"#00FFFF",
+        "terminal.ansiGreen":"#33FF00",
+        "terminal.ansiMagenta":"#CC00FF",
+        "terminal.ansiRed":"#FF0000",
+        "terminal.ansiWhite":"#D0D0D0",
+        "terminal.ansiYellow":"#FF0099"
         `
     },
     {
@@ -142,12 +140,7 @@ export const ResultData = [
         name: '내유외강 개발자',
         best : 'INFJ',
         desc : '당신은 바라는 이상향을 꿈꾸는데 게으름 피우는 법이 없으며 구체적으로 계획을 세워 이행해 나갑니다. 섬세한 언어를 사용하고 따듯한 인류애를 가진 당신! 나긋한 목소리 뒤에 강직함을 숨긴 당신에게 Ashes테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        image : `${coreImg05}`,
         code : `
         "terminal.background":"#1C2023",
         "terminal.foreground":"#C7CCD1",
@@ -176,7 +169,7 @@ export const ResultData = [
         name: '순수한 이상주의 개발자',
         best : 'INFP',
         desc : '인생의 실용적인 부분보다 당신만의 원리원칙에 근거하여 사고하고 행동하는 당신! 뛰어난 언어적 소실을 보이는 만큼 당신의 코드는 철학적이고 섬세합니다. 열정의 불꽃을 품고사는 당신에게 Rebecca테마를 추천합니다✨',
-        image : `${Icoder}`,
+        image : `${coreImg06}`,
         codePic : `
             <div className="result-intj">
                 <span class="c1"></span>
@@ -210,12 +203,7 @@ export const ResultData = [
         name: '빛과 소금 개발자',
         best : 'ENFJ',
         desc : '카리스마와 충만한 열정을 가진 당신! 타인을 진심으로 대하는 당신과 동료들은 팀을 하고 싶어하네요. 옳다고 믿는일에 총대를 메는 것을 두려워하지 않는 당신에게 Google Dark테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        image : `${coreImg07}`,
         code : `
         "terminal.background":"#1D1F21",
         "terminal.foreground":"#C5C8C6",
@@ -244,33 +232,28 @@ export const ResultData = [
         name: '댕댕이 개발자',
         best : 'ENFP',
         desc : '자유로운 사고를 하는 당신! 매력적이고 독립적인 성격의 당신은 문제를 자유로운 사고와 직관을 통해 해결합니다. 자유로운 영혼을 가진 당신에게 Pop테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        image : `${coreImg08}`,
         code : `
-        "terminal.background":"#1D1F21",
-        "terminal.foreground":"#C5C8C6",
-        "terminalCursor.background":"#C5C8C6",
-        "terminalCursor.foreground":"#C5C8C6",
-        "terminal.ansiBlack":"#1D1F21",
-        "terminal.ansiBlue":"#3971ED",
-        "terminal.ansiBrightBlack":"#969896",
-        "terminal.ansiBrightBlue":"#3971ED",
-        "terminal.ansiBrightCyan":"#3971ED",
-        "terminal.ansiBrightGreen":"#198844",
-        "terminal.ansiBrightMagenta":"#A36AC7",
-        "terminal.ansiBrightRed":"#CC342B",
+        "terminal.background":"#000000",
+        "terminal.foreground":"#D0D0D0",
+        "terminalCursor.background":"#D0D0D0",
+        "terminalCursor.foreground":"#D0D0D0",
+        "terminal.ansiBlack":"#000000",
+        "terminal.ansiBlue":"#0E5A94",
+        "terminal.ansiBrightBlack":"#505050",
+        "terminal.ansiBrightBlue":"#0E5A94",
+        "terminal.ansiBrightCyan":"#00AABB",
+        "terminal.ansiBrightGreen":"#37B349",
+        "terminal.ansiBrightMagenta":"#B31E8D",
+        "terminal.ansiBrightRed":"#EB008A",
         "terminal.ansiBrightWhite":"#FFFFFF",
-        "terminal.ansiBrightYellow":"#FBA922",
-        "terminal.ansiCyan":"#3971ED",
-        "terminal.ansiGreen":"#198844",
-        "terminal.ansiMagenta":"#A36AC7",
-        "terminal.ansiRed":"#CC342B",
-        "terminal.ansiWhite":"#C5C8C6",
-        "terminal.ansiYellow":"#FBA922"
+        "terminal.ansiBrightYellow":"#F8CA12",
+        "terminal.ansiCyan":"#00AABB",
+        "terminal.ansiGreen":"#37B349",
+        "terminal.ansiMagenta":"#B31E8D",
+        "terminal.ansiRed":"#EB008A",
+        "terminal.ansiWhite":"#D0D0D0",
+        "terminal.ansiYellow":"#F8CA12"
         `
     },
     {
@@ -278,46 +261,36 @@ export const ResultData = [
         name: "논리주의 개발자",
         best : 'ISTJ',
         desc : '질서를 중시하는 조직에서 핵심 구성원 역할을 하는 당신! 문제를 객관적으로 분석하고 사실에 입각하여 실행 가능한 계획을 세우기 때문에 당신은 언제나 임무를 달성합니다. 동료들은 업무를 정확하고 신중하게 처리하는 당신을 신뢰합니다. 정직한 당신에게 Default Dark테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        image : `${coreImg09}`,
         code : `
-        "terminal.background":"#1D1F21",
-        "terminal.foreground":"#C5C8C6",
-        "terminalCursor.background":"#C5C8C6",
-        "terminalCursor.foreground":"#C5C8C6",
-        "terminal.ansiBlack":"#1D1F21",
-        "terminal.ansiBlue":"#3971ED",
-        "terminal.ansiBrightBlack":"#969896",
-        "terminal.ansiBrightBlue":"#3971ED",
-        "terminal.ansiBrightCyan":"#3971ED",
-        "terminal.ansiBrightGreen":"#198844",
-        "terminal.ansiBrightMagenta":"#A36AC7",
-        "terminal.ansiBrightRed":"#CC342B",
-        "terminal.ansiBrightWhite":"#FFFFFF",
-        "terminal.ansiBrightYellow":"#FBA922",
-        "terminal.ansiCyan":"#3971ED",
-        "terminal.ansiGreen":"#198844",
-        "terminal.ansiMagenta":"#A36AC7",
-        "terminal.ansiRed":"#CC342B",
-        "terminal.ansiWhite":"#C5C8C6",
-        "terminal.ansiYellow":"#FBA922"
+        "terminal.background":"#181818",
+        "terminal.foreground":"#D8D8D8",
+        "terminalCursor.background":"#D8D8D8",
+        "terminalCursor.foreground":"#D8D8D8",
+        "terminal.ansiBlack":"#181818",
+        "terminal.ansiBlue":"#7CAFC2",
+        "terminal.ansiBrightBlack":"#585858",
+        "terminal.ansiBrightBlue":"#7CAFC2",
+        "terminal.ansiBrightCyan":"#86C1B9",
+        "terminal.ansiBrightGreen":"#A1B56C",
+        "terminal.ansiBrightMagenta":"#BA8BAF",
+        "terminal.ansiBrightRed":"#AB4642",
+        "terminal.ansiBrightWhite":"#F8F8F8",
+        "terminal.ansiBrightYellow":"#F7CA88",
+        "terminal.ansiCyan":"#86C1B9",
+        "terminal.ansiGreen":"#A1B56C",
+        "terminal.ansiMagenta":"#BA8BAF",
+        "terminal.ansiRed":"#AB4642",
+        "terminal.ansiWhite":"#D8D8D8",
+        "terminal.ansiYellow":"#F7CA88"
         `
     },
     {
         id: 10,
         name: "이타주의 개발자",
         best : 'ISFJ',
-        desc : '세심하고 꼼꼼한 당신은 맡은 바에 책임감을 가지고 업무에 임합니다. 회사의 기대치를 넘는 만족을 돌려주고자 최선을 다하는 당신은 어떤 조직에서도 차분히 스며듭니다. 가정과 회사에 충실한 당신에게 Circus테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        desc : '세심하고 꼼꼼한 당신은 맡은 바에 책임감을 가지고 업무에 임합니다. 회사의 기대치를 넘는 만족을 돌려주고자 최선을 다하는 당신은 어떤 조직에서도 차분히 스며듭니다. 충실한 당신에게 Circus테마를 추천합니다✨',
+        image : `${coreImg10}`,
         code : `
         "terminal.background":"#191919",
         "terminal.foreground":"#A7A7A7",
@@ -345,34 +318,29 @@ export const ResultData = [
         id: 11,
         name: "관리자형 개발자",
         best : 'ESTJ',
-        desc : '팀원을 단결시키는 데에 일가견이 있는 당신! 주변 상황을 잘 판단하여 증명이 가능한 확실한 근거를 통해 사고합니다. 성취하기 어려운 고된 일도 구체적 실행 계획으로 수월히 실행해나갑니다. 질서를 중시하는 당신에게 Classic Dark테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        desc : '팀원을 단결시키는 데에 일가견이 있는 당신! 주변 상황을 잘 판단하여 증명이 가능한 확실한 근거를 통해 사고합니다. 성취하기 어려운 고된 일도 구체적 실행 계획으로 수월히 실행해나갑니다. 질서를 중시하는 당신에게 Darktooth테마를 추천합니다✨',
+        image : `${coreImg11}`,
         code : `
-        "terminal.background":"#191919",
-        "terminal.foreground":"#A7A7A7",
-        "terminalCursor.background":"#A7A7A7",
-        "terminalCursor.foreground":"#A7A7A7",
-        "terminal.ansiBlack":"#191919",
-        "terminal.ansiBlue":"#639EE4",
-        "terminal.ansiBrightBlack":"#5F5A60",
-        "terminal.ansiBrightBlue":"#639EE4",
-        "terminal.ansiBrightCyan":"#4BB1A7",
-        "terminal.ansiBrightGreen":"#84B97C",
-        "terminal.ansiBrightMagenta":"#B888E2",
-        "terminal.ansiBrightRed":"#DC657D",
-        "terminal.ansiBrightWhite":"#FFFFFF",
-        "terminal.ansiBrightYellow":"#C3BA63",
-        "terminal.ansiCyan":"#4BB1A7",
-        "terminal.ansiGreen":"#84B97C",
-        "terminal.ansiMagenta":"#B888E2",
-        "terminal.ansiRed":"#DC657D",
-        "terminal.ansiWhite":"#A7A7A7",
-        "terminal.ansiYellow":"#C3BA63"
+        "terminal.background":"#1D2021",
+        "terminal.foreground":"#A89984",
+        "terminalCursor.background":"#A89984",
+        "terminalCursor.foreground":"#A89984",
+        "terminal.ansiBlack":"#1D2021",
+        "terminal.ansiBlue":"#0D6678",
+        "terminal.ansiBrightBlack":"#665C54",
+        "terminal.ansiBrightBlue":"#0D6678",
+        "terminal.ansiBrightCyan":"#8BA59B",
+        "terminal.ansiBrightGreen":"#95C085",
+        "terminal.ansiBrightMagenta":"#8F4673",
+        "terminal.ansiBrightRed":"#FB543F",
+        "terminal.ansiBrightWhite":"#FDF4C1",
+        "terminal.ansiBrightYellow":"#FAC03B",
+        "terminal.ansiCyan":"#8BA59B",
+        "terminal.ansiGreen":"#95C085",
+        "terminal.ansiMagenta":"#8F4673",
+        "terminal.ansiRed":"#FB543F",
+        "terminal.ansiWhite":"#A89984",
+        "terminal.ansiYellow":"#FAC03B"
         `
     },
     {
@@ -380,7 +348,7 @@ export const ResultData = [
         name: "인기쟁이 개발자",
         best : 'ESFJ',
         desc : '주위 사람들에게 끊임없는 관심과 애정을 보이는 당신을 사람들은 모두 좋아합니다. 의미 있는 방식으로 다른 이에게 도움이 되고자 하는 당신은 어떤 프로젝트에서도 조화롭게 문제를 해결해나갑니다. 긍정의 에너지를 가진 당신에게 Brushtrees Dark테마를 추천합니다✨',
-        image : `${Icoder}`,
+        image : `${coreImg12}`,
         codePic : `
             <div className="result-intj">
                 <span class="c1"></span>
@@ -414,12 +382,7 @@ export const ResultData = [
         name: "만능 개발자",
         best : 'ISTP',
         desc : '이성주의적 성향과 왕성한 호기심을 가진 당신! 새로운 것을 보면 직접 분해하고 조립하는 일에 즐거움을 느낍니다. 무언가를 만들어내는데에 재능을 가진 당신은 엔지니어가 될 운명이었네요! 남들과 다른곳에서 즐거움을 찾는 당신에게 Atelier Sulphurpool테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        image : `${coreImg13}`,
         code : `
         "terminal.background":"#202746",
         "terminal.foreground":"#979DB4",
@@ -447,81 +410,69 @@ export const ResultData = [
         id: 14,
         name: "관습을 뛰어넘는 개발자",
         best : 'ISFP',
-        desc : '당신은 세상에서 영감을 받아 당신만의 시각으로 재해석하여 새로운 것을 발견하고 탐험합니다. 탐험을 즐기고 실험 정신이 뛰어난 당신의 코드는 트렌디하고 독창적입니다. 다양한 경험을 통해 자아를 찾는 당신에게 Cupertino테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        desc : '당신은 세상에서 영감을 받아 당신만의 시각으로 재해석하여 새로운 것을 발견하고 탐험합니다. 탐험을 즐기고 실험 정신이 뛰어난 당신의 코드는 트렌디하고 독창적입니다. 다양한 경험을 통해 자아를 찾는 당신에게 Cupcake테마를 추천합니다✨',
+        image : `${coreImg14}`,
         code : `
-        "terminal.background":"#202746",
-        "terminal.foreground":"#979DB4",
-        "terminalCursor.background":"#979DB4",
-        "terminalCursor.foreground":"#979DB4",
-        "terminal.ansiBlack":"#202746",
-        "terminal.ansiBlue":"#3D8FD1",
-        "terminal.ansiBrightBlack":"#6B7394",
-        "terminal.ansiBrightBlue":"#3D8FD1",
-        "terminal.ansiBrightCyan":"#22A2C9",
-        "terminal.ansiBrightGreen":"#AC9739",
-        "terminal.ansiBrightMagenta":"#6679CC",
-        "terminal.ansiBrightRed":"#C94922",
-        "terminal.ansiBrightWhite":"#F5F7FF",
-        "terminal.ansiBrightYellow":"#C08B30",
-        "terminal.ansiCyan":"#22A2C9",
-        "terminal.ansiGreen":"#AC9739",
-        "terminal.ansiMagenta":"#6679CC",
-        "terminal.ansiRed":"#C94922",
-        "terminal.ansiWhite":"#979DB4",
-        "terminal.ansiYellow":"#C08B30"
+        "terminal.background":"#FBF1F2",
+        "terminal.foreground":"#8B8198",
+        "terminalCursor.background":"#8B8198",
+        "terminalCursor.foreground":"#8B8198",
+        "terminal.ansiBlack":"#FBF1F2",
+        "terminal.ansiBlue":"#7297B9",
+        "terminal.ansiBrightBlack":"#BFB9C6",
+        "terminal.ansiBrightBlue":"#7297B9",
+        "terminal.ansiBrightCyan":"#69A9A7",
+        "terminal.ansiBrightGreen":"#A3B367",
+        "terminal.ansiBrightMagenta":"#BB99B4",
+        "terminal.ansiBrightRed":"#D57E85",
+        "terminal.ansiBrightWhite":"#585062",
+        "terminal.ansiBrightYellow":"#DCB16C",
+        "terminal.ansiCyan":"#69A9A7",
+        "terminal.ansiGreen":"#A3B367",
+        "terminal.ansiMagenta":"#BB99B4",
+        "terminal.ansiRed":"#D57E85",
+        "terminal.ansiWhite":"#8B8198",
+        "terminal.ansiYellow":"#DCB16C"
         `
     },
     {
         id: 15,
         name: "파티를 즐기는 개발자",
         best : 'ESFP',
-        desc : '사교적인 성향의 당신은 사람들과 어울려 즐거운 시간을 갖는것에 즐거움을 느낍니다. 팀 프로젝트를 할때도 매력적인 쇼맨십으로 사람들로부터 스포트라이트를 받습니다. 뛰어난 심미안과 관찰력을 가진 당신에게 테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        desc : '사교적인 성향의 당신은 사람들과 어울려 즐거운 시간을 갖는것에 즐거움을 느낍니다. 팀 프로젝트를 할때도 매력적인 쇼맨십으로 사람들로부터 스포트라이트를 받습니다. 뛰어난 심미안과 관찰력을 가진 당신에게 Atelier Cave테마를 추천합니다✨',
+        image : `${coreImg15}`,
         code : `
-        "terminal.background":"#171C19",
-        "terminal.foreground":"#87928A",
-        "terminalCursor.background":"#87928A",
-        "terminalCursor.foreground":"#87928A",
-        "terminal.ansiBlack":"#171C19",
-        "terminal.ansiBlue":"#478C90",
-        "terminal.ansiBrightBlack":"#5F6D64",
-        "terminal.ansiBrightBlue":"#478C90",
-        "terminal.ansiBrightCyan":"#1C9AA0",
-        "terminal.ansiBrightGreen":"#489963",
-        "terminal.ansiBrightMagenta":"#55859B",
-        "terminal.ansiBrightRed":"#B16139",
-        "terminal.ansiBrightWhite":"#ECF4EE",
-        "terminal.ansiBrightYellow":"#A07E3B",
-        "terminal.ansiCyan":"#1C9AA0",
-        "terminal.ansiGreen":"#489963",
-        "terminal.ansiMagenta":"#55859B",
-        "terminal.ansiRed":"#B16139",
-        "terminal.ansiWhite":"#87928A",
-        "terminal.ansiYellow":"#A07E3B"
+        "terminal.background":"#19171C",
+        "terminal.foreground":"#8B8792",
+        "terminalCursor.background":"#8B8792",
+        "terminalCursor.foreground":"#8B8792",
+        "terminal.ansiBlack":"#19171C",
+        "terminal.ansiBlue":"#576DDB",
+        "terminal.ansiBrightBlack":"#655F6D",
+        "terminal.ansiBrightBlue":"#576DDB",
+        "terminal.ansiBrightCyan":"#398BC6",
+        "terminal.ansiBrightGreen":"#2A9292",
+        "terminal.ansiBrightMagenta":"#955AE7",
+        "terminal.ansiBrightRed":"#BE4678",
+        "terminal.ansiBrightWhite":"#EFECF4",
+        "terminal.ansiBrightYellow":"#A06E3B",
+        "terminal.ansiCyan":"#398BC6",
+        "terminal.ansiGreen":"#2A9292",
+        "terminal.ansiMagenta":"#955AE7",
+        "terminal.ansiRed":"#BE4678",
+        "terminal.ansiWhite":"#8B8792",
+        "terminal.ansiYellow":"#A06E3B"
         `
     },
     {
         id: 16,
         name: "모험을 즐기는 개발자",
         best : 'ESTP',
-        desc : '규칙은 깨라고 있는 법! 예리하고 사물을 있는 그대로 관찰하는 당신은 작은 변화도 정확히 알아챕니다. 당신에게 엄격한 규율이나 질서를 요구하는 조직은 어울리지 않습니다. 충만한 영감과 설득력을 갖춘 당신에게 Tube테마를 추천합니다✨',
-        image : `${Icoder}`,
-        codePic : `
-            <div className="result-intj">
-                <span class="c1"></span>
-            </div>
-        `,
+        desc : `규칙은 깨라고 있는 법! 
+        예리하고 사물을 있는 그대로 관찰하는 당신은 작은 변화도 정확히 알아챕니다. 
+        당신에게 엄격한 규율이나 질서를 요구하는 조직은 어울리지 않습니다. 
+        충만한 영감과 설득력을 갖춘 당신에게 Tube테마를 추천합니다✨`,
+        image : `${coreImg16}`,
         code : `
         "terminal.background":"#231F20",
         "terminal.foreground":"#D9D8D8",
