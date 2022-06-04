@@ -7,7 +7,7 @@
 @font-face{font-family:"Cafe24SsurroundAir";src:url(/src/assets/fonts/Cafe24SsurroundAir.ttf);}
 
 
-body{background-color:#07021A;color:#fff;}
+body{background-color:#07021A;color:#fff;font-family:'Cafe24SsurroundAir';}
 .wrapper{width:100%;height:100vh;font-family:'Cafe24SsurroundAir';}
 .content-w{display:flex;justify-content:center;align-items:center;flex-direction:column;}
 
