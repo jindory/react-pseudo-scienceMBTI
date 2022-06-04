@@ -3,17 +3,21 @@
 @font-face{font-family:"Cafe24SsurroundAir";src:url(/src/assets/fonts/Cafe24SsurroundAir.ttf);}
 
 body{background-color:#07021A;color:#fff;}
-.pg-cont{padding:40px 0 130px;max-width:400px;margin:0 auto;text-align: center;}
+.pg-cont{padding:40px 0 110px;max-width:400px;margin:0 auto;text-align: center;}
 .logo-img{width:100%}
 .visual-img{width:100%}
-.result--imagearea{width:100%;height:270px;background-color:#4C21D4;border-bottom-right-radius: 40px;border-bottom-left-radius: 40px;}
-.result-img{width:80%;margin-top:15px}
+.result--imagearea{width:100%;height:250px;background-color:#4C21D4;background-image:url(../src/assets/bg.png);background-size:140% auto;border-bottom-right-radius: 40px;border-bottom-left-radius: 40px;}
+.result-img{width:85%}
 .result--title{margin-top:0;font-size:35px;font-weight: bold;text-align: center;}
 .result--color{margin-top:15px;padding:20px;display:flex;border-radius:10px;border-bottom-right-radius: 0;border-bottom-left-radius: 0;justify-content: center;}
 .result--color span{display:inline-block;width:35px;height:35px;margin:0 3px;border-radius: 100px;font-size:0}
 .result--code-box{position:relative;background:#181520;border-radius:10px;border-top-left-radius: 0;border-top-right-radius: 0; padding:20px;color:#999;font-size:14px}
 .code-box{overflow:scroll;height:80px;text-align:left}
 .ref-box{font-size:13px;color:#999;margin-top:10px}
+.t-copy{display:inline-block;margin:0 0 30px 30px;font-size:12px}
+.t-copy a{color:#fff;text-decoration: none;opacity: .2}
+.t-copy a:hover{opacity: .4;}
+.git-mini{width:15px;}
 
 /* button */
 .btn-cta{width:100%;margin-top:50px;padding:20px 50px 17px;background-color:#4D21D3;border:0;border-radius: 100px;font-weight: bold;font-size:30px}
@@ -29,7 +33,7 @@ body{background-color:#07021A;color:#fff;}
 .bg-danger{background-color:#4C21D3 !important}
 
 /* tabs */
-.nav-tabs{margin-top:15px;border-bottom:0;border-radius: 8px;overflow: hidden;background:#181520}
+.nav-tabs{margin-top:10px;border-bottom:0;border-radius: 8px;overflow: hidden;background:#181520}
 .nav-tabs .nav-link{border-radius:0}
 .nav-tabs .nav-item{width:50%}
 .nav-tabs .nav-item button{width:100%;color:#999;border:0}

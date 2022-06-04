@@ -3,10 +3,10 @@ import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
-import useRef  from "react";
-
+import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { ResultData } from '../assets/data/resultdata';
+import GitHubImage from '../assets/github-brands.svg'
 
 const Result = () => {
     const navigate = useNavigate();
@@ -28,7 +28,7 @@ const Result = () => {
         <Content>
             <div className="result--imagearea">
                 <div className="pg-cont">
-                    <Title>결과 보기</Title>
+                    <Title>myPersonalTerminal</Title>
                     <img src={resultData.image} className="result-img" alt="catbug" />
                 </div>
             </div>
@@ -50,9 +50,12 @@ const Result = () => {
                         <div class="code-box">
                             {resultData.code}
                         </div>
-                        <button class="btn-small">COPY</button>
+                        <CopyToClipboard text={resultData.code} onCopy={()=>alert("코드가 복사되었습니다")}>
+                            <button class="btn-small">COPY</button>
+                        </CopyToClipboard>
                     </div>
                 </CodeGroup>
+                
             </Desc>
             
             <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
@@ -72,6 +75,7 @@ const Result = () => {
             <Button className="btn-cta" onClick={()=>navigate("/")}>테스트 다시하기</Button>
             </div>
         </Content>
+        <span class="t-copy"><a href="https://github.com/jindory/react-pseudo-scienceMBTI" target="_blank"><img src={GitHubImage} className="git-mini"></img> @jindory</a></span>
     </Wrapper>
 )
 }
@@ -93,7 +97,7 @@ const Content = styled.div`
 `
 
 const Title = styled.div`
-    font-size:15pt;
+    font-size:13pt;
     font-weight:bold
 `
 
