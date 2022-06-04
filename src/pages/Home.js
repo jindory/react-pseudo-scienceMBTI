@@ -32,6 +32,6 @@ const Home = () => {
 
 export default Home;
 const Desc = styled.div`
-    font-size:20px;
+    font-size:16px;
     margin-top:30px;
 `

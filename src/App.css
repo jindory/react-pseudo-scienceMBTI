@@ -41,7 +41,7 @@ body{background-color:#07021A;color:#fff;}
 .btn-small:hover{background:#fff;color:var(--primary-hover-color);font-weight: bold;}
 
 /* progress */
-.progress{height:1.1rem;background:#171520;border-radius:15px;border-top-left-radius: 0;border-top-right-radius: 0;}
+.progress{height:1.1rem;background:#171520;border-radius:0}
 .bg-danger{background-color:var(--primary-color) !important}
 
 /* tabs */
@@ -50,6 +50,14 @@ body{background-color:#07021A;color:#fff;}
 .nav-tabs .nav-item{width:50%}
 .nav-tabs .nav-item button{width:100%;color:#999;border:0}
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{background:#292333;color:#fff}
+
+@media ( max-width: 460px ) {
+    .pg-cont{max-width:100%;margin: 0 30px;}
+    .btn-cta{font-size:22px}
+    .result--imagearea{height: 220px}
+    .result--title{font-size:30px}
+    .t-copy{margin:0 0 15px 15px}
+  }
 
 /* color */
 .result--color.INTJ{background-color:rgb(11, 28, 44)}
