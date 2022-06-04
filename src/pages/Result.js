@@ -7,6 +7,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { ResultData } from '../assets/data/resultdata';
 import GitHubImage from '../assets/github-brands.svg'
+import KakaoShareButton from '../component/kakaoShareButton';
 
 const Result = () => {
     const navigate = useNavigate();
@@ -45,24 +46,24 @@ const Result = () => {
                         <span className="cr5">5</span>
                     </div>
                 </div>
-                <div class="result--code-box">
-                    <div class="code-box">
+                <div className="result--code-box">
+                    <div className="code-box">
                         {resultData.code}
                     </div>
                     <CopyToClipboard text={resultData.code} onCopy={()=>alert("코드가 복사되었습니다")}>
-                        <button class="btn-small">COPY</button>
+                        <button className="btn-small">COPY</button>
                     </CopyToClipboard>
                 </div>
             </Desc>
             
             <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
                 <Tab eventKey="profile" title="적용방법">
-                    <p class="ref-box">
+                    <p className="ref-box">
                     👩‍🎨 🎨 [VSCode] 💽 터미널 알록달록하게 꾸미기 <a href="https://inpa.tistory.com/352" target="_blank" rel="noreferrer">https://inpa.tistory.com/352 </a>
                     </p>
                 </Tab>
                 <Tab eventKey="home" title="색상코드">
-                    <p class="ref-box">
+                    <p className="ref-box">
                     👩‍🎨 🎨 테스트 결과에 쓰인 색상코드는 <a href="https://glitchbone.github.io/vscode-base16-term" target="_blank" rel="noreferrer">vscode-base16-term</a> 에서 발췌한 내용입니다.
                         더 다양한 색상을 자세하게 보고 싶으신분들은 사이트에 방문해보세요 
                     </p>
@@ -70,9 +71,10 @@ const Result = () => {
             </Tabs>
             
             <Button className="btn-cta" onClick={()=>navigate("/")}>테스트 다시하기</Button>
+            <KakaoShareButton />
             </div>
         </div>
-        <span class="t-copy"><a href="https://github.com/jindory/react-pseudo-scienceMBTI" target="_blank" rel="noreferrer"><img src={GitHubImage} className="git-mini" alt=""></img> @jindory</a></span>
+        <span className="t-copy"><a href="https://github.com/jindory/react-pseudo-scienceMBTI" target="_blank" rel="noreferrer"><img src={GitHubImage} className="git-mini" alt=""></img> @jindory</a></span>
     </div>
 )
 }
@@ -89,6 +91,6 @@ const Desc = styled.div`
 `
 
 const Info = styled.div`
-    font-size:20px;
+    font-size:19px;
     margin-top:20px;
 `
