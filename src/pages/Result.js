@@ -58,12 +58,12 @@ const Result = () => {
             <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
                 <Tab eventKey="profile" title="적용방법">
                     <p class="ref-box">
-                    👩‍🎨 🎨 [VSCode] 💽 터미널 알록달록하게 꾸미기 <a href="https://inpa.tistory.com/352" target="_blank">https://inpa.tistory.com/352 </a>
+                    👩‍🎨 🎨 [VSCode] 💽 터미널 알록달록하게 꾸미기 <a href="https://inpa.tistory.com/352" target="_blank" rel="noreferer">https://inpa.tistory.com/352 </a>
                     </p>
                 </Tab>
                 <Tab eventKey="home" title="색상코드">
                     <p class="ref-box">
-                    👩‍🎨 🎨 테스트 결과에 쓰인 색상코드는 <a href="https://glitchbone.github.io/vscode-base16-term" target="_blank">vscode-base16-term</a> 에서 발췌한 내용입니다.
+                    👩‍🎨 🎨 테스트 결과에 쓰인 색상코드는 <a href="https://glitchbone.github.io/vscode-base16-term" target="_blank" rel="noreferer">vscode-base16-term</a> 에서 발췌한 내용입니다.
                         더 다양한 색상을 자세하게 보고 싶으신분들은 사이트에 방문해보세요 
                     </p>
                 </Tab>
@@ -72,7 +72,7 @@ const Result = () => {
             <Button className="btn-cta" onClick={()=>navigate("/")}>테스트 다시하기</Button>
             </div>
         </div>
-        <span class="t-copy"><a href="https://github.com/jindory/react-pseudo-scienceMBTI" target="_blank"><img src={GitHubImage} className="git-mini"></img> @jindory</a></span>
+        <span class="t-copy"><a href="https://github.com/jindory/react-pseudo-scienceMBTI" target="_blank" rel="noreferer"><img src={GitHubImage} className="git-mini" alt=""></img> @jindory</a></span>
     </div>
 )
 }

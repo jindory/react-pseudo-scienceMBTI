@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import {ProgressBar, Button} from 'react-bootstrap';
 import {QuestionData} from '../assets/data/questiondata';
 import {useNavigate} from 'react-router-dom';
