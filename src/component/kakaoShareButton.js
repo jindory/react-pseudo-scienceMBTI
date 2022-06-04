@@ -6,6 +6,7 @@ const KakaoShareButton = () => {
     const url = "https://mypersonalterminal.netlify.app/";
     const resultUrl = window.location.href; //공유할 주소
 
+    console.log('test', resultUrl, url)
 
     React.useEffect(()=>{
         Kakao.cleanup(); //여러번 열리면 인증이 이미 됐다고 떠서 이거 넣어듐
