@@ -41,7 +41,8 @@ body{background-color:#07021A;color:#fff;font-family:'Cafe24SsurroundAir';}
 .btn-question{margin-top:30px}
 .btn-question button{width:100%;min-height:130px;margin:5px 0;padding:20px 25px;background-color:#1C1A26;border:0;border-radius:15px;font-weight:bold;font-size:20px;}
 .btn-question button{-webkit-tap-highlight-color:transparent;}
-.btn-question button:hover{background-color:var(--primary-color);}
+.btn-question button:hover{background:#1C1A26}
+.btn-question button:active{background-color:var(--primary-color) !important;}
 .btn-question .btn-primary:focus, .btn-question .btn-primary:visited, .btn-question .btn-primary:focus-visible{background:#1C1A26;box-shadow: none;}
 .btn-small{display:inline-block;position:absolute;top:15px;right:15px; padding:5px 8px 3px;background:none;border:1px solid #fff;border-radius: 5px;color:#fff;font-size:13px}
 .btn-small:hover{background:#fff;color:var(--primary-hover-color);font-weight: bold;}
