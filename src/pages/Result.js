@@ -24,8 +24,8 @@ const Result = () => {
     console.log(resultData);
 
     return (
-    <Wrapper>
-        <Content>
+    <div className="wrapper">
+        <div className="content-w">
             <div className="result--imagearea">
                 <div className="pg-cont">
                     <Title>myPersonalTerminal</Title>
@@ -45,17 +45,14 @@ const Result = () => {
                         <span className="cr5">5</span>
                     </div>
                 </div>
-                <CodeGroup>
-                    <div class="result--code-box">
-                        <div class="code-box">
-                            {resultData.code}
-                        </div>
-                        <CopyToClipboard text={resultData.code} onCopy={()=>alert("코드가 복사되었습니다")}>
-                            <button class="btn-small">COPY</button>
-                        </CopyToClipboard>
+                <div class="result--code-box">
+                    <div class="code-box">
+                        {resultData.code}
                     </div>
-                </CodeGroup>
-                
+                    <CopyToClipboard text={resultData.code} onCopy={()=>alert("코드가 복사되었습니다")}>
+                        <button class="btn-small">COPY</button>
+                    </CopyToClipboard>
+                </div>
             </Desc>
             
             <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
@@ -74,28 +71,13 @@ const Result = () => {
             
             <Button className="btn-cta" onClick={()=>navigate("/")}>테스트 다시하기</Button>
             </div>
-        </Content>
+        </div>
         <span class="t-copy"><a href="https://github.com/jindory/react-pseudo-scienceMBTI" target="_blank"><img src={GitHubImage} className="git-mini"></img> @jindory</a></span>
-    </Wrapper>
+    </div>
 )
 }
 
 export default Result;
-
-const Wrapper = styled.div`
-    height:100vh;
-    width:100%;
-    font-family:'Cafe24SsurroundAir';
-    
-`
-
-const Content = styled.div`
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-`
-
 const Title = styled.div`
     font-size:13pt;
     font-weight:bold
@@ -109,8 +91,4 @@ const Desc = styled.div`
 const Info = styled.div`
     font-size:20px;
     margin-top:20px;
-`
-
-const CodeGroup = styled.div`
-    
 `

@@ -14,43 +14,23 @@ const Home = () => {
         navigate('/question');
     }
     return (
-        <Wrapper>
+        <div className="wrapper">
             {/* <Header>퍼스널 터미널 찾기</Header> */}
-            <Content>
+            <div className="content-w">
                 <div className="pg-cont">
-                    <LogoImage><img src={PangImage} className="logo-img" alt="my Personal Terminal" /></LogoImage>
-                    <VisualImage><img src={MainImage} className="visual-img"  alt="" /></VisualImage>
+                    <img src={PangImage} className="logo-img" alt="my Personal Terminal" />
+                    <img src={MainImage} className="visual-img"  alt="" />
                     <Desc>
                         MBTI를 기반으로 하는 터미널 테마 꾸미기
                     </Desc>
-                    <Button className="btn-cta" onClick={handleClickButton}>테스트 시작하기</Button>
+                    <Button className="btn-cta home" onClick={handleClickButton}>테스트 시작하기</Button>
                 </div>
-            </Content>
-        </Wrapper>
+            </div>
+        </div>
     )
 }
 
 export default Home;
-const Wrapper = styled.div`
-    width:100%;
-    height:100vh;
-    font-family:'Cafe24SsurroundAir';
-`
-
-const Content = styled.div`
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-`
-
-const LogoImage = styled.div`
-    margin-top:10px;
-`
-const VisualImage = styled.div`
-    margin-top:10px
-`
-
 const Desc = styled.div`
     font-size:20px;
     margin-top:30px;

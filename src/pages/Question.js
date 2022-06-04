@@ -40,37 +40,19 @@ const Question = () => {
 
 
     return (
-        <Wrapper>
+        <div className="wrapper">
             <ProgressBar striped variant="danger" now={(questionNo / QuestionData.length) * 100}/>
-            <Content>
-            <div className="pg-cont">
-                <Title>{QuestionData[questionNo].title}</Title>
-                <div className="btn-question">
-                    <Button onClick={()=>handleClickButton(1, QuestionData[questionNo].type)}>{QuestionData[questionNo].answera}</Button>
-                    <Button onClick={()=>handleClickButton(0, QuestionData[questionNo].type)}>{QuestionData[questionNo].answerb}</Button>
+            <div className="content-w">
+                <div className="pg-cont">
+                    <h3 class="txt--q">{QuestionData[questionNo].title}</h3>
+                    <div className="btn-question">
+                        <Button onClick={()=>handleClickButton(1, QuestionData[questionNo].type)}>{QuestionData[questionNo].answera}</Button>
+                        <Button onClick={()=>handleClickButton(0, QuestionData[questionNo].type)}>{QuestionData[questionNo].answerb}</Button>
+                    </div>
                 </div>
             </div>
-            </Content>
-        </Wrapper>
+        </div>
     )
 }
 
 export default Question;
-
-const Wrapper = styled.div`
-    height:100vh;
-    width:100%;
-    font-family:'Cafe24SsurroundAir';
-`
-
-const Content = styled.div`
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-`
-
-const Title = styled.div`
-    text-align:center;
-    font-size:30pt;
-`
