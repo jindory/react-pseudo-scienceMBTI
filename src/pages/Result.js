@@ -71,7 +71,8 @@ const Result = () => {
             </Tabs>
             
             <Button className="btn-cta" onClick={()=>navigate("/")}>테스트 다시하기</Button>
-            <KakaoShareButton />
+            <KakaoShareButton data={resultData} /> 
+            {/* 최종데이터를 가지고 온닷 */}
             </div>
         </div>
         <span className="t-copy"><a href="https://github.com/jindory/react-pseudo-scienceMBTI" target="_blank" rel="noreferrer"><img src={GitHubImage} className="git-mini" alt=""></img> @jindory</a></span>

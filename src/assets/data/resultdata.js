@@ -25,6 +25,7 @@ export const ResultData = [
         코드를 짤 때도 최고 효율의 코드를 뚝딱 만들어냅니다! 
         냉철한 이성을 가진 당신에게 Harmonic Dark테마를 추천합니다.✨`,
         image : `${coreImg01}`,
+        share : '냉철한 이성을 가진 고독한 개발자',
         code : `
         "terminal.background":"#0B1C2C",
         "terminal.foreground":"#CBD6E2",
@@ -54,6 +55,7 @@ export const ResultData = [
         best : 'INTP',
         desc : '당신만은 독특한 관점과 왕성한 지적 호기심을 가지고 있습니다! 독창적인 아이디어로 문제를 해결하고 쉼 없이 자신의 논리를 검증하는 당신! 늘 생각이 많은 당신에게 Grayscale Dark테마를 추천합니다✨',
         image : `${coreImg02}`,
+        share : '늘 생각이 많은 독창적인 천재 개발자',
         code : `
         "terminal.background":"#101010",
         "terminal.foreground":"#B9B9B9",
@@ -83,6 +85,7 @@ export const ResultData = [
         best : 'ENTJ',
         desc : '성취 가능한 도전에 매력을 느끼고 장기적인 안목으로 문제를 바라봅니다. 판단력이 좋은 당신은 정확하게 계획을 실행해 나감으로써 팀을 이끌고 더 튼 성공과 성취를 이루기 위해 노력합니다. 효율을 중요시하는 당신에게 Material Darker테마를 추천합니다✨',
         image : `${coreImg03}`,
+        share : '효율을 중시하는 대담한 개발자',
         code : `
         "terminal.background":"#212121",
         "terminal.foreground":"#EEFFFF",
@@ -112,6 +115,7 @@ export const ResultData = [
         best : 'ENTP',
         desc : '재치 있는 입담과 풍부한 지식을 가진 당신! 다수가 받아들인 사안에 대해서도 의문을 제기하고 체제 자체를 흔들며 새로운 방안을 모색하게 합니다. 지루하고 고단한 업무는 어울리지 않는 당신에게 Isotope테마를 추천합니다✨',
         image : `${coreImg04}`,
+        share : '지루한 업무는 어울리지 않는 논쟁을 즐기는 개발자',
         code : `
         "terminal.background":"#000000",
         "terminal.foreground":"#D0D0D0",
@@ -141,6 +145,7 @@ export const ResultData = [
         best : 'INFJ',
         desc : '당신은 바라는 이상향을 꿈꾸는데 게으름 피우는 법이 없으며 구체적으로 계획을 세워 이행해 나갑니다. 섬세한 언어를 사용하고 따듯한 인류애를 가진 당신! 나긋한 목소리 뒤에 강직함을 숨긴 당신에게 Ashes테마를 추천합니다✨',
         image : `${coreImg05}`,
+        share : '나긋한 목소리 뒤에 강직함을 숨긴 내유외강 개발자',
         code : `
         "terminal.background":"#1C2023",
         "terminal.foreground":"#C7CCD1",
@@ -170,6 +175,7 @@ export const ResultData = [
         best : 'INFP',
         desc : '인생의 실용적인 부분보다 당신만의 원리원칙에 근거하여 사고하고 행동하는 당신! 뛰어난 언어적 소실을 보이는 만큼 당신의 코드는 철학적이고 섬세합니다. 열정의 불꽃을 품고사는 당신에게 Rebecca테마를 추천합니다✨',
         image : `${coreImg06}`,
+        share : '열정의 불꽃을 품고사는 순수한 이상주의 개발자',
         codePic : `
             <div className="result-intj">
                 <span class="c1"></span>
@@ -204,6 +210,7 @@ export const ResultData = [
         best : 'ENFJ',
         desc : '카리스마와 충만한 열정을 가진 당신! 타인을 진심으로 대하는 당신과 동료들은 팀을 하고 싶어하네요. 옳다고 믿는일에 총대를 메는 것을 두려워하지 않는 당신에게 Google Dark테마를 추천합니다✨',
         image : `${coreImg07}`,
+        share : '옳다고 믿는일에 총대를 메는 것을 두려워하지 않는 빛과 소금 개발자',
         code : `
         "terminal.background":"#1D1F21",
         "terminal.foreground":"#C5C8C6",
@@ -233,6 +240,7 @@ export const ResultData = [
         best : 'ENFP',
         desc : '자유로운 사고를 하는 당신! 매력적이고 독립적인 성격의 당신은 문제를 자유로운 사고와 직관을 통해 해결합니다. 자유로운 영혼을 가진 당신에게 Pop테마를 추천합니다✨',
         image : `${coreImg08}`,
+        share : '자유로운 영혼을 가진 댕댕이 개발자',
         code : `
         "terminal.background":"#000000",
         "terminal.foreground":"#D0D0D0",
@@ -262,6 +270,7 @@ export const ResultData = [
         best : 'ISTJ',
         desc : '질서를 중시하는 조직에서 핵심 구성원 역할을 하는 당신! 문제를 객관적으로 분석하고 사실에 입각하여 실행 가능한 계획을 세우기 때문에 당신은 언제나 임무를 달성합니다. 동료들은 업무를 정확하고 신중하게 처리하는 당신을 신뢰합니다. 정직한 당신에게 Default Dark테마를 추천합니다✨',
         image : `${coreImg09}`,
+        share : '정직한 논리주의 개발자',
         code : `
         "terminal.background":"#181818",
         "terminal.foreground":"#D8D8D8",
@@ -291,6 +300,7 @@ export const ResultData = [
         best : 'ISFJ',
         desc : '세심하고 꼼꼼한 당신은 맡은 바에 책임감을 가지고 업무에 임합니다. 회사의 기대치를 넘는 만족을 돌려주고자 최선을 다하는 당신은 어떤 조직에서도 차분히 스며듭니다. 충실한 당신에게 Circus테마를 추천합니다✨',
         image : `${coreImg10}`,
+        share : '충실한 이타주의 개발자',
         code : `
         "terminal.background":"#191919",
         "terminal.foreground":"#A7A7A7",
@@ -320,6 +330,7 @@ export const ResultData = [
         best : 'ESTJ',
         desc : '팀원을 단결시키는 데에 일가견이 있는 당신! 주변 상황을 잘 판단하여 증명이 가능한 확실한 근거를 통해 사고합니다. 성취하기 어려운 고된 일도 구체적 실행 계획으로 수월히 실행해나갑니다. 질서를 중시하는 당신에게 Darktooth테마를 추천합니다✨',
         image : `${coreImg11}`,
+        share : '질서를 중시하는 관리자형 개발자',
         code : `
         "terminal.background":"#1D2021",
         "terminal.foreground":"#A89984",
@@ -349,6 +360,7 @@ export const ResultData = [
         best : 'ESFJ',
         desc : '주위 사람들에게 끊임없는 관심과 애정을 보이는 당신을 사람들은 모두 좋아합니다. 의미 있는 방식으로 다른 이에게 도움이 되고자 하는 당신은 어떤 프로젝트에서도 조화롭게 문제를 해결해나갑니다. 긍정의 에너지를 가진 당신에게 Brushtrees Dark테마를 추천합니다✨',
         image : `${coreImg12}`,
+        share : '긍정의 에너지를 가진 인기쟁이 개발자',
         codePic : `
             <div className="result-intj">
                 <span class="c1"></span>
@@ -383,6 +395,7 @@ export const ResultData = [
         best : 'ISTP',
         desc : '이성주의적 성향과 왕성한 호기심을 가진 당신! 새로운 것을 보면 직접 분해하고 조립하는 일에 즐거움을 느낍니다. 무언가를 만들어내는데에 재능을 가진 당신은 엔지니어가 될 운명이었네요! 남들과 다른곳에서 즐거움을 찾는 당신에게 Atelier Sulphurpool테마를 추천합니다✨',
         image : `${coreImg13}`,
+        share : '남들과 다른곳에서 즐거움을 찾는 만능 개발자',
         code : `
         "terminal.background":"#202746",
         "terminal.foreground":"#979DB4",
@@ -412,6 +425,7 @@ export const ResultData = [
         best : 'ISFP',
         desc : '당신은 세상에서 영감을 받아 당신만의 시각으로 재해석하여 새로운 것을 발견하고 탐험합니다. 탐험을 즐기고 실험 정신이 뛰어난 당신의 코드는 트렌디하고 독창적입니다. 다양한 경험을 통해 자아를 찾는 당신에게 Cupcake테마를 추천합니다✨',
         image : `${coreImg14}`,
+        share : '다양한 경험을 통해 관습을 뛰어넘는 개발자',
         code : `
         "terminal.background":"#FBF1F2",
         "terminal.foreground":"#8B8198",
@@ -441,6 +455,7 @@ export const ResultData = [
         best : 'ESFP',
         desc : '사교적인 성향의 당신은 사람들과 어울려 즐거운 시간을 갖는것에 즐거움을 느낍니다. 팀 프로젝트를 할때도 매력적인 쇼맨십으로 사람들로부터 스포트라이트를 받습니다. 뛰어난 심미안과 관찰력을 가진 당신에게 Atelier Cave테마를 추천합니다✨',
         image : `${coreImg15}`,
+        share : '뛰어난 심미안과 관찰력을 가진 파티를 즐기는 개발자',
         code : `
         "terminal.background":"#19171C",
         "terminal.foreground":"#8B8792",
@@ -473,6 +488,7 @@ export const ResultData = [
         당신에게 엄격한 규율이나 질서를 요구하는 조직은 어울리지 않습니다. 
         충만한 영감과 설득력을 갖춘 당신에게 Tube테마를 추천합니다✨`,
         image : `${coreImg16}`,
+        share : '충만한 영감과 설득력을 갖춘 모험을 즐기는 개발자',
         code : `
         "terminal.background":"#231F20",
         "terminal.foreground":"#D9D8D8",
